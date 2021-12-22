@@ -1,0 +1,93 @@
+* {
+    margin:5px;
+    padding:5px;
+
+}
+header {
+    text-align: center;
+    border-style: solid;
+    border-color: coral;
+}
+.flexbox {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    border-style: solid;
+}
+main{
+    flex:80%;
+    text-align: center;
+}
+nav {
+    background-color: black;
+    color: blanchedalmond;
+    margin:10px;     
+}
+nav > ul{
+    list-style: none;
+    text-align: center;
+    
+}
+li{
+    display: inline;    
+}
+a {
+    text-decoration: none;
+    color:orange;
+}
+aside {
+    
+    background-image: url(CoffeeBeansMixed\ header\ 1920X480.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    width: auto;          
+}
+
+footer {
+    text-align: center;
+}
+@media only screen and (min-width:768px) {
+    
+header {
+    text-align: center;
+    border-style: solid;
+    border-color: coral;
+}
+.flexbox {
+    display: flex;
+    flex-direction: row;
+    min-height: 100vh;
+    border-style: solid;
+}
+main{
+    flex:80%;
+    text-align: center;
+}
+nav {
+    flex: 35%;
+    background-color: black;
+    color: blanchedalmond;
+    justify-content: space-evenly;
+
+}
+nav > ul{
+    list-style: none;
+    text-align: left;
+    width: fit-content;
+}
+li{
+    display: block;
+}
+aside {
+    flex: 20%;
+    background-color: black;
+    background-image: url(CoffeeBeansMixed\ header\ 1920X480.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+       
+}
+
+footer{
+    text-align: center;
+}
+}

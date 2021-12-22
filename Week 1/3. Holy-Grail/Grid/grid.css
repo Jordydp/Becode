@@ -1,0 +1,59 @@
+*{
+    margin:0;
+    padding:0;
+}
+header {
+    text-align: center;
+    border-style: solid;
+    border-color: coral;
+}
+nav {
+    background-color: black;
+    color: blanchedalmond;
+    margin: 10px;        
+}
+nav > ul {
+    list-style: none;
+    text-align: center;
+    padding: 5px;
+    margin: 5px 5px;
+}
+li {
+    display: inline;
+    
+}
+a{
+    text-decoration: none;
+    color:orange;
+}
+aside {
+    background-image: url(../Flexbox/CoffeeBeansMixed\ header\ 1920X480.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+              
+}
+
+footer{
+    text-align: center;
+    background-color: black;
+    color: orange;
+}
+.grid{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-rows: 1fr;
+}
+
+
+@media only screen and (min-width:768px) {
+.grid{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+li{
+    display: block;
+    margin-top:auto;
+    
+}
+}

@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding:0;
+}
+body{
+    color: white;
+}
+
+header{
+    background: grey;
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    line-height: 50px;
+}
+.left {
+    height:auto;
+    text-align: center;
+    align-content: center;
+}
+ul{
+    list-style-type: none;
+}
+.center{
+    height:auto;
+    text-align: center;
+    line-height: 50px;
+} 
+.right{
+    height:auto;
+    text-align: center;
+    line-height: 50px;
+}
+.left {
+    background: red;
+}
+.center {
+    background: black;
+}
+.right {
+    background: purple;
+}
+footer {
+    background: grey;
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    line-height: 50px;
+}
+@media only screen and (min-width:768px){
+header footer{
+        background: grey;
+        width: 100%;
+        text-align: center;
+        line-height: 50px;
+}
+main{
+        padding: 0 50px;
+        overflow: hidden;
+}
+.left,
+.center,
+.right {
+    position: relative;
+    text-align: center;
+    line-height: 100px;
+    padding-bottom: 1000px;
+    margin-bottom: -1000px;
+}
+.left {
+    float: left;
+    width: 50px;
+    margin-left: -50px;
+    background: red;
+}
+.center {
+    float: left;
+    width:100%;
+    height: auto;
+    background: black;
+    }
+.right{
+    float: left;
+    margin-left: -100%;
+    right: -100%;
+    width:50px;
+    background: purple;
+}
+.footer{
+    clear:both;
+}
+}

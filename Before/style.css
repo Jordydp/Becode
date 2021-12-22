@@ -1,0 +1,87 @@
+body{
+    margin:0%;
+    background-color: #011322 !important;
+}
+h1{
+    font-size:10vw;
+    text-align: center;
+    color: white;
+    margin: 25px auto;
+}
+h3{
+    font-size: 7vw;
+    text-align: center;
+    color: white;
+    margin: 25px auto;
+}
+p{
+    font-size: 3vw;
+    text-align: center;
+    color: white;
+    margin: 50px auto;
+}
+a{
+    text-decoration: none;
+}
+.worldpic {
+    background: url(world2.jpg) no-repeat center; 
+    object-fit: cover;
+    background-size: cover;
+    height: 500px;
+    position: relative;
+    z-index: 1;
+}
+.helloworld {
+    width: 100%;
+    position: absolute;
+    bottom: 0%;
+    color: white;
+    z-index: 2;
+    text-shadow: black 0px 0px 10px;
+}
+.mypic{
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    max-width: 100%;
+    border-radius: 50%;
+    top: 20px;
+    left:20px;
+    z-index: 2;
+}
+hr{
+    margin: 50px auto;
+    color: #F05F44;
+    border: 1px solid #F05F44;
+    border-radius: 5%;
+    max-width: 90%;
+    opacity: 1;  
+}
+.text-jordy > p {
+    width: 100%;
+    text-align: center;
+}
+
+ .container{
+    margin: 0px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+    
+    .container > img{
+        width:20%;
+        height:20%;
+        margin:2%;
+        transition: all 1s;
+    }
+
+    .container > img:hover{
+        transform: scale(1.2);
+    } 
+button{
+    width: 100%;
+    align-content: center;
+    border-color: #63c3d1;
+    background-color: #63c3d1;
+}

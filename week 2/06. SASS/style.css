@@ -10,7 +10,7 @@ body {
   background-attachment: fixed;
 }
 
-article {
+body article {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -18,15 +18,16 @@ article {
       flex-wrap: wrap;
 }
 
-article section {
+body article section {
   -webkit-box-flex: 1;
       -ms-flex-positive: 1;
           flex-grow: 1;
   -ms-flex-preferred-size: 45%;
       flex-basis: 45%;
   border: 1px silver solid;
-  -webkit-box-shadow: 10px 10px 19px -4px rgba(255, 255, 255, 0.75);
   box-shadow: 10px 10px 19px -4px rgba(255, 255, 255, 0.75);
+  -webkit-box-shadow: 10px 10px 19px -4px rgba(255, 255, 255, 0.75);
+  -moz-box-shadow: 10px 10px 19px -4px rgba(255, 255, 255, 0.75);
   padding: 16px;
   margin: 16px;
   clear: both;
@@ -35,7 +36,7 @@ article section {
           box-sizing: border-box;
 }
 
-article section#selling-points {
+body article #selling-points {
   -webkit-box-flex: 2;
       -ms-flex-positive: 2;
           flex-grow: 2;
@@ -43,7 +44,7 @@ article section#selling-points {
       flex-basis: 100%;
 }
 
-article pre {
+body article pre {
   background: #000;
   border: 1px solid #ddd;
   color: #666;
@@ -58,37 +59,35 @@ article pre {
   white-space: pre-wrap;
 }
 
-article pre.before {
+body article pre.before {
   float: left;
   width: 40%;
 }
 
-article pre.after {
+body article pre.after {
   float: right;
   width: 40%;
 }
 
-h1,
-h2,
-h6 {
+body h1,
+body h2,
+body h6 {
   color: #6b8eff;
+  padding: 16px;
 }
 
-h1 {
+body h1 {
   text-align: center;
 }
 
-h6 {
+body h6 {
   text-align: center;
   font-size: 2em;
-  padding: 32px;
+  padding: calc(16px * 2);
   margin-bottom: 0px;
 }
 
-.message,
-.success,
-.error,
-.warning {
+body .success, body .error, body .warning {
   border: 1px solid #ccc;
   padding: 16px;
   margin: 16px;
@@ -96,15 +95,15 @@ h6 {
   background-color: #000;
 }
 
-.success {
+body .success {
+  background-color: yellow;
+}
+
+body .error {
   background-color: green;
 }
 
-.error {
+body .warning {
   background-color: red;
-}
-
-.warning {
-  background-color: orange;
 }
 /*# sourceMappingURL=style.css.map */

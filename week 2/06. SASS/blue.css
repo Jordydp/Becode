@@ -69,25 +69,18 @@ body article pre.after {
   width: 40%;
 }
 
-h1,
-h2,
-h6 {
-  color: green;
-  padding: 16px;
-}
-
-h1 {
+body h1 {
   text-align: center;
 }
 
-h6 {
+body h6 {
   text-align: center;
   font-size: 2em;
   padding: calc(16px * 2);
   margin-bottom: 0px;
 }
 
-.success, .error, .warning {
+body .success, body .error, body .warning {
   border: 1px solid #ccc;
   padding: 16px;
   margin: 16px;
@@ -95,16 +88,21 @@ h6 {
   background-color: #000;
 }
 
-.success {
+body .success {
   background-color: yellow;
 }
 
-.error {
+body .error {
   background-color: green;
   color: yellow;
 }
 
-.warning {
+body .warning {
   background-color: red;
 }
-/*# sourceMappingURL=style.css.map */
+
+body {
+  background-color: lemonchiffon;
+  color: blue;
+}
+/*# sourceMappingURL=blue.css.map */

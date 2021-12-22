@@ -1,4 +1,5 @@
 $padding: 16px;
+$color: green;
 
 @mixin box-shadow {
   box-shadow: 10px 10px 19px -4px rgba(255, 255, 255, 0.75);
@@ -8,7 +9,7 @@ $padding: 16px;
 
 body {
     font: 100% "Space Mono", monospace;
-    color: #2748b3;
+    color: $color;
     margin: 0px;
     padding: 0px;
     background-color: #000;
@@ -49,7 +50,7 @@ body {
   }
   
   pre {
-    background: #000;
+    background: #fff;
     border: 1px solid #ddd;
     color: #666;
     font-family: monospace;
@@ -73,11 +74,11 @@ body {
     width: 40%;
   }
 }
-  
+}  
   h1,
   h2,
   h6 {
-    color: #6b8eff;
+    color: $color;
     padding: $padding;
   }
   
@@ -96,7 +97,7 @@ body {
     border: 1px solid #ccc;
     padding: 16px;
     margin: 16px;
-    color: #2748b3;
+    color: green;
     background-color: #000;
   }
   .success {
@@ -107,10 +108,11 @@ body {
   .error {
     @extend %message;
     background-color: green;
+    color:yellow;
   }
   
   .warning {
     @extend %message;
     background-color: red;
   }
-}
+

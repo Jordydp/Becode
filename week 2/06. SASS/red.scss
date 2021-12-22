@@ -1,0 +1,17 @@
+@import 'style';
+$color: red;
+
+body{background-color: yellowgreen; color: $color;}
+body .warning{color: whitesmoke;}
+h1,
+h2,
+h6 {
+  color: $color;
+  padding: $padding;
+}
+
+
+
+
+
+

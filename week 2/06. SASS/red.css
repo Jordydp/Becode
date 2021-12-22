@@ -107,4 +107,20 @@ h6 {
 .warning {
   background-color: red;
 }
-/*# sourceMappingURL=style.css.map */
+
+body {
+  background-color: yellowgreen;
+  color: red;
+}
+
+body .warning {
+  color: whitesmoke;
+}
+
+h1,
+h2,
+h6 {
+  color: red;
+  padding: 16px;
+}
+/*# sourceMappingURL=red.css.map */

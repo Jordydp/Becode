@@ -1,0 +1,84 @@
+
+body{
+    margin:0;
+    padding:0;
+    background-image: url(./exercise-wireframe.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    /*Nav*/
+    nav {
+        width: 80vw;
+        margin-inline: auto;
+        display: flex;
+        justify-content: space-between;
+        background-color: yellowgreen;
+        opacity: 0.5;
+        align-items: center;
+    .logo-left{
+        padding:15px;
+        margin-top:1vw;
+        margin-bottom: 1vw;
+        margin-left: 1em;
+        border:2px solid black;
+        align-self:center;
+        color:whitesmoke;
+        background-color: black;
+
+    }
+    .navbartopul {
+
+        display: flex;
+        list-style: none;
+        font-size: 0.7em;
+        li {
+           padding:20px;
+
+        
+
+            a {
+                color: whitesmoke;
+                text-decoration: none;
+         
+            }
+        }
+    }
+
+}
+.cover{
+    display: flex;
+    height: 50vh;
+    width: 80vw;    
+    margin-inline: auto;
+    justify-content: center;
+    align-items: center;
+    border:2px solid red;
+    color: whitesmoke;
+    .cover-left{
+        padding: 5.5rem;
+        h1{
+            font-size: 3rem;
+        }
+        .mainCta{
+            color: white;
+            background-color: red;
+            border-color: red;
+            border-radius: 12px;
+            font-size: 15px;
+            padding: 14px 40px;
+        }
+    }
+    .video{
+
+        
+        .video  img{
+            width: 100%;
+            height: 100%;
+        }
+
+    }
+}
+
+}
+

@@ -1,0 +1,96 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url(./exercise-wireframe.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  /*Nav*/
+}
+
+body nav {
+  width: 80vw;
+  margin-inline: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: yellowgreen;
+  opacity: 0.5;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body nav .logo-left {
+  padding: 15px;
+  margin-top: 1vw;
+  margin-bottom: 1vw;
+  margin-left: 1em;
+  border: 2px solid black;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  color: whitesmoke;
+  background-color: black;
+}
+
+body nav .navbartopul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  font-size: 0.7em;
+}
+
+body nav .navbartopul li {
+  padding: 20px;
+}
+
+body nav .navbartopul li a {
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+body .cover {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 50vh;
+  width: 80vw;
+  margin-inline: auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 2px solid red;
+  color: whitesmoke;
+}
+
+body .cover .cover-left {
+  padding: 5.5rem;
+}
+
+body .cover .cover-left h1 {
+  font-size: 3rem;
+}
+
+body .cover .cover-left .mainCta {
+  color: white;
+  background-color: red;
+  border-color: red;
+  border-radius: 12px;
+  font-size: 15px;
+  padding: 14px 40px;
+}
+
+body .cover .video .video img {
+  width: 100%;
+  height: 100%;
+}
+/*# sourceMappingURL=style.css.map */
